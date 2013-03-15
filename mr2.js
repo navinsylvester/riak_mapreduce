@@ -75,7 +75,7 @@
                                                   values.reduce(
                                                                   function(acc, item)
                                                                   {
-                                                                    for(country in item)
+                                                                    for(c in item)
                                                                     {
                                                                       if(acc[c])
                                                                         acc[c] += item[c];
